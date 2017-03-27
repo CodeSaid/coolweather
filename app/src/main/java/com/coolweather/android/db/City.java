@@ -1,11 +1,13 @@
 package com.coolweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by CodeSaid on 2017/3/27.
  * 用于存放市的数据信息
  */
 
-public class City {
+public class City extends DataSupport{
     private int id;
 
     private String cityName; // 记录市的名字

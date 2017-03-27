@@ -1,11 +1,13 @@
 package com.coolweather.android.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by CodeSaid on 2017/3/27.
  * 用于存放省的数据信息
  */
 
-public class Province {
+public class Province extends DataSupport{
     private int id;
 
     private String provinceName; // 记录省的名字
